@@ -1,0 +1,95 @@
+*{
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(32, 156, 108);
+}
+.navBar{
+    display: flex;
+    padding: 20px;
+    background-color: white;
+    /* align-items: center; */
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+#Image1{
+    display: block;
+    width: 150px;
+}
+#inp{
+    width: 450px;
+    padding: 10px;
+    border: none;
+}
+.search{
+    padding: 11px;
+    color: white;
+    border: none;
+    color: white;
+    background-color: rgb(228, 133, 39);
+    border-radius: 4px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,.2);
+}
+.search:hover{
+    background-color: rgb(224, 126, 27);
+
+}
+.subNavBar{
+    display: flex;
+    gap: 10px;
+}
+.input-container {
+    position: relative;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 2px;
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: border-color 0.3s;
+    width: 300px;
+}
+
+.input-field:focus {
+    outline: none;
+    border-color: transparent;
+}
+#image2{
+    display: block;
+    width: 30px;
+    height: 30px;
+}
+.navBarButtons{
+    padding: 15px;
+    border: none;
+    background-color: white;
+}
+.navBarButtons:hover{
+    color:  rgb(228, 133, 39);
+    transition: .2s;
+}
+#image3{
+    display: block;
+    width: 25px;
+    height: 25px;
+}
+.mainBody{
+    background-image: url('Images/BG_TAKEOVER_WORKERS_WEEK_2024.jpg');
+    height: 100%;
+    background-repeat: no-repeat;
+}
+#backgrounrImage{
+    width: 100%;
+
+}
+.subMAainBody{
+    display: flex;
+    justify-content: center;
+}
